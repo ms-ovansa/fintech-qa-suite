@@ -25,20 +25,20 @@ demo application:
 
 ## Project Structure
 
-fintech-qa-suite/
-├── .github/workflows/
-│   └── playwright.yml    # CI pipeline definition
-├── helpers/
-│   └── testData.ts       # Faker.js data generators
-├── pages/
-│   ├── LoginPage.ts      # Page Object: authentication
-│   ├── CartPage.ts       # Page Object: cart and products
-│   └── CheckoutPage.ts   # Page Object: checkout form
-├── tests/
-│   ├── auth.spec.ts      # Authentication test cases
-│   ├── cart.spec.ts      # Cart functionality test cases
-│   └── checkout.spec.ts  # Checkout flow test cases
-└── playwright.config.ts  # Playwright configuration
+    fintech-qa-suite/
+    ├── .github/workflows/
+    │   └── playwright.yml    — CI pipeline definition
+    ├── helpers/
+    │   └── testData.ts       — Faker.js data generators
+    ├── pages/
+    │   ├── LoginPage.ts      — Page Object: authentication
+    │   ├── CartPage.ts       — Page Object: cart and products
+    │   └── CheckoutPage.ts   — Page Object: checkout form
+    ├── tests/
+    │   ├── auth.spec.ts      — Authentication test cases
+    │   ├── cart.spec.ts      — Cart functionality test cases
+    │   └── checkout.spec.ts  — Checkout flow test cases
+    └── playwright.config.ts  — Playwright configuration
 
 ## How To Run Locally
 
